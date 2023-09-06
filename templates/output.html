@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ML Model Output</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e3eaa7;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            background-color: blanchedalmond;
+            padding: 56px;
+            border-radius: 26px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #666666;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Term Deposit Model Prediction</h1>
+        <h2>Classification Result:  {{ classification_prediction }} </h2>
+        <h2>Clustering Result:  {{ clustering_prediction }} </h2>
+    </div>
+</body>
+</html>
